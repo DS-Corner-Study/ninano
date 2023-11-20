@@ -29,9 +29,9 @@ public class Product {
     @Column(nullable = false)
     private Integer stock;
 
-//    private LocalDateTime createdAt;
-//
-//    private LocalDateTime updateAt;
+    private LocalDateTime createdAt;
+
+    private LocalDateTime updateAt;
 //
 //    public Long getNumber() {
 //        return number;
